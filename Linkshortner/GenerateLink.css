@@ -1,0 +1,12 @@
+nav , h1, form, p, footer {
+    text-align: center;
+}
+
+
+input, button {
+    display: inline;
+}
+
+h1 {
+    font-size: 200%;
+}

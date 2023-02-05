@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+}
+
+header .logoTitel {
+    display: flex;
+    color: white;
+    background-color: lightslategrey;
+}
+
+header .logoTitel h1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav a{
+    background-color: lightgray;
+}
+
+header img{
+    width: 10em;
+}
+
+body {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main {
+    background-color: lightsteelblue;
+}
+
+.formContainer {
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+}
+
+form *{
+    display: block;
+}
+
+form input,
+form textarea {
+    width: 100%;
+}
+
+main {
+    display: block;
+}
+
+.news {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    /* grid-auto-flow: column; */
+    margin-left: 10px;
+    margin-right: 10px;
+
+    /* grid-auto-columns: 300px; */
+}
+
+.newsContainer {
+    /* width: 200px; */
+    height: 300px;
+    margin: 10px;
+    overflow:auto;
+}
